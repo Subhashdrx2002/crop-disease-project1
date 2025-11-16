@@ -2,6 +2,7 @@
 🌱 Potato Disease Classification using CNN (TensorFlow)
 
 <img src="https://github.com/Subhashdrx2002/crop-disease-project1/blob/main/Screenshot%20(598).png">
+<img src="https://github.com/Subhashdrx2002/crop-disease-project1/blob/main/Screenshot%20(599).png">
 
 
 A single-file, end-to-end pipeline that trains a Convolutional Neural Network to classify potato leaf images into **Early Blight**, **Late Blight**, and **Healthy** using the PlantVillage dataset. Includes dataset loading, augmentation, training, evaluation, inference and model saving.
@@ -92,7 +93,7 @@ def get_preprocessing_and_augmentation():
         layers.experimental.preprocessing.Rescaling(1.0 / 255.0),
     ], name="resize_and_rescale")
 
-    <img src="https://github.com/Subhashdrx2002/crop-disease-project1/blob/main/Screenshot%20(599).png">
+    
 
     data_augmentation = tf.keras.Sequential([
         layers.experimental.preprocessing.RandomFlip("horizontal_and_vertical"),
