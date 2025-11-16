@@ -1,7 +1,7 @@
 # CROP-Disease-Classification
 🌱 Potato Disease Classification using CNN (TensorFlow)
 
-<img src="https://github.com/Subhashdrx2002/Potato-Disease-Classification/blob/main/assets/potato_sample.jpg" alt="Potato Disease Sample" width="600">
+<img src="https://drive.google.com/file/d/1euv1Phyi4MZVIE4fv1UVbx9WzrGm_1OV/view?usp=drive_link">
 
 
 A single-file, end-to-end pipeline that trains a Convolutional Neural Network to classify potato leaf images into **Early Blight**, **Late Blight**, and **Healthy** using the PlantVillage dataset. Includes dataset loading, augmentation, training, evaluation, inference and model saving.
