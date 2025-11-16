@@ -92,6 +92,8 @@ def get_preprocessing_and_augmentation():
         layers.experimental.preprocessing.Rescaling(1.0 / 255.0),
     ], name="resize_and_rescale")
 
+    <img src="https://github.com/Subhashdrx2002/crop-disease-project1/blob/main/Screenshot%20(599).png">
+
     data_augmentation = tf.keras.Sequential([
         layers.experimental.preprocessing.RandomFlip("horizontal_and_vertical"),
         layers.experimental.preprocessing.RandomRotation(0.2),
@@ -129,6 +131,7 @@ def build_model(input_shape=(IMAGE_SIZE, IMAGE_SIZE, CHANNELS), n_classes=3):
     ], name="potato_cnn")
 
     return model
+    
 
 # ----------------------
 # Plot training history
